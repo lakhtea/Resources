@@ -1,0 +1,19 @@
+Creating a new local repo and connecting it to GitHub repo
+
+cd into directory/folder of your choice then run following commands in order
+
+1.git init
+2.touch README.md
+3.echo "# {Directory Name}" >> README.md
+4.git add README.md
+5.git commit -m "first commit"
+6.git branch -M main
+7.git remote add origin {GitHub repo URL}
+8.git push -u origin main
+
+(To push to a different repo, simply repeat steps 7 & 8 but change origin to a different name)
+
+After this you can simply use git pull to pull/git push to push
+
+
+
